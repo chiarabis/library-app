@@ -1,6 +1,6 @@
 # Library App
-## Un'app che permette di la ricerca di libri per categoria
-Il progetto mira a realizzare un'applicazione che dia informazioni su tutti i libri di quella data categoria inserita dall'utente. É un progetto del master in Front-End Development di Start2Impact, pensato come esercitazione pratica personale.
+## Un'app per la ricerca di libri
+Il progetto mira a realizzare un'applicazione che dia informazioni su tutti i libri di una data categoria inserita dall'utente. É un progetto del master in Front-End Development di Start2Impact, pensato come esercitazione pratica personale.
 
 ***
 ### Cosa prevede il progetto
