@@ -1,0 +1,51 @@
+html, body{
+    font-family: 'Rubik', sans-serif;
+    min-height: 100vh;
+}
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.search-box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#subjectInput{
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #6b3e3e;
+    font-size: 1rem;
+}
+#subjectInput:hover{
+    background-color: #ddc5bb;
+}
+#searchButton{
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #6b3e3e;
+    color: white;
+    transition: transform 0.2s ease;
+    font-size: 1rem;
+}
+#searchButton:hover{
+    transform: scale(0.90);
+}
+.books-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #6b3e3e;
+}
+.all-titles{
+    color: #6b3e3e;
+}
+.all-titles div{
+    padding: 10px 0;
+}
