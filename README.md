@@ -11,7 +11,7 @@ Una volta che l’utente cliccherà sul bottone, l’applicazione dovrà contatt
 Come funziona l'applicazione?
 L'app è caratterizzata appunto da una ```search-box```, costituita da un input in cui l'utente scrive del testo e da un bottone ```Discover books```. Quando si preme il bottone, il sistema fa una chiamata all'API Open Library riportando come risposta nel div ```book-info``` le informazioni inerenti ai libri di quella categoria. Ogni libro riporta un titolo e l'autore (o autori). L'interfaccia è stata resa semplice dal momento che il focus era come gestire il codice Javascript.
 
-## Struttura del progetto ---work in progress---
+## Struttura del progetto
 Il progetto è organizzato nelle seguenti cartelle e file:
 - File ```index.html```
 - Cartella ```src``` per visualizzare lo script di sviluppo contenuto nel file index.js
@@ -77,6 +77,9 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 })
 ```
+
+### Correzione bug ---work in progress---
+Attualmente la ricerca in input da risultati solo se il testo inserito è tutto minuscolo. L'obiettivo è di rendere fruibile l'app anche inserendo del testo in maiuscolo.
 
 ## Link al progetto
 https://chiarabis.github.io/library-app/
